@@ -1,0 +1,25 @@
+/* Importing components */
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/section.css");
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container-large {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 770px) {
+  /* For a screen < 770px, this CSS will be read */
+  .banner {
+    background-size: cover;
+    background-position: 0px 0px;
+    padding: 50px 0;
+  }
+}

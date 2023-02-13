@@ -3,8 +3,9 @@
   background-size: cover;
 	background-position: center;
 	/* backdrop-filter: blur(10px); */
-  padding: 8px;
+  /* padding: 8px; AGATHE */
   border: white 2px solid;
+  background-repeat: ;
 }
 
 .container-section{
@@ -12,12 +13,14 @@
   margin: 5vw;
 }
 
-/* .job {
-  display: flex;
+.job {
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  /* display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-} */
+  flex-wrap: wrap; */
+}
 
 .job-description{
   flex-grow: 1;

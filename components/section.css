@@ -9,13 +9,13 @@
 }
 
 .container-section{
-  width: 90vw;
-  margin: 5vw;
+  /* width: 90vw; AGATHE
+  margin: 5vw; */
 }
 
 .job {
-  backdrop-filter: blur(10px);
-  padding: 50px;
+  backdrop-filter: blur(3px); /* AGATHE */
+  padding: 50px; /* AGATHE */
   /* display: flex;
   justify-content: space-between;
   align-items: center;
